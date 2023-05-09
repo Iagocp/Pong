@@ -1,0 +1,56 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLSpecialState</id><coordinates><x>620</x><y>90</y><w>20</w><h>20</h></coordinates><panel_attributes>type=initial</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>580</x><y>140</y><w>100</w><h>40</h></coordinates><panel_attributes>borrar pantalla</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>100</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLObject</id><coordinates><x>380</x><y>0</y><w>510</w><h>930</h></coordinates><panel_attributes>Dibujar Raqueta
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>580</x><y>210</y><w>100</w><h>40</h></coordinates><panel_attributes>Crear Objetos</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>170</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>240</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>570</x><y>280</y><w>130</w><h>40</h></coordinates><panel_attributes>Actualizar Posición
+de los Objetos</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>560</x><y>350</y><w>160</w><h>60</h></coordinates><panel_attributes>Limitar Salida De Pantalla</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>310</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>480</x><y>440</y><w>320</w><h>40</h></coordinates><panel_attributes>Control Colisión Paredes Top-Bottom</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>400</y><w>30</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;40;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>530</x><y>510</y><w>220</w><h>40</h></coordinates><panel_attributes>Colisión Con Pared Lateral</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>520</y><w>140</w><h>260</h></coordinates><panel_attributes>lt=&lt;-
+no</panel_attributes><additional_attributes>10;240;110;240;100;10</additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>540</y><w>40</w><h>70</h></coordinates><panel_attributes>lt=&lt;-
+si</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>570</x><y>590</y><w>130</w><h>40</h></coordinates><panel_attributes>Aumentar Putuación</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>620</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element><element><id>UMLState</id><coordinates><x>590</x><y>670</y><w>100</w><h>40</h></coordinates><panel_attributes>Reset</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>630</x><y>740</y><w>40</w><h>40</h></coordinates><panel_attributes>type=decision</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>630</x><y>700</y><w>40</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>20;40;15;12</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>470</y><w>50</w><h>60</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>20;40;17;20;35;12</additional_attributes></element><element><id>UMLState</id><coordinates><x>560</x><y>800</y><w>180</w><h>40</h></coordinates><panel_attributes>Control Colisión Raquetas</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>640</x><y>770</y><w>30</w><h>50</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;30;10;10</additional_attributes></element><element><id>UMLSpecialState</id><coordinates><x>650</x><y>880</y><w>20</w><h>20</h></coordinates><panel_attributes>type=final</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>830</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element></diagram>
