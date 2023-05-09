@@ -1,0 +1,55 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLState</id><coordinates><x>190</x><y>120</y><w>180</w><h>110</h></coordinates><panel_attributes>Persona
+--
+Entry:existe
+Exit:
+do:Huye
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>820</x><y>110</y><w>180</w><h>110</h></coordinates><panel_attributes>Persona fallecida
+--
+Entry: fallece
+Exit:
+do: nada
+
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>180</x><y>580</y><w>180</w><h>110</h></coordinates><panel_attributes>Persona Inmune
+--
+Entry:investiga
+Exit:
+do: ayuda a los no infectados y 
+busca una cura
+
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>490</x><y>340</y><w>180</w><h>110</h></coordinates><panel_attributes>Infectado
+--
+Entry:grita desesperada
+Exit:
+Do: buscar ayuda
+
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLState</id><coordinates><x>850</x><y>580</y><w>180</w><h>110</h></coordinates><panel_attributes>Zombie
+--
+Entry: Convertido
+Exit:
+Do: Infectar
+
+-.
+valign=top
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>220</y><w>140</w><h>380</h></coordinates><panel_attributes>lt=-&gt;
+no le afecta el virus</panel_attributes><additional_attributes>10;10;10;360</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>140</y><w>480</w><h>40</h></coordinates><panel_attributes>lt=-&gt;
+ataca a persona</panel_attributes><additional_attributes>10;20;460;20</additional_attributes></element><element><id>Relation</id><coordinates><x>360</x><y>180</y><w>270</w><h>180</h></coordinates><panel_attributes>lt=-&gt;
+infectado por el virus</panel_attributes><additional_attributes>10;20;240;20;240;160</additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>220</y><w>190</w><h>220</h></coordinates><panel_attributes>lt=-&gt;
+mordido
+
+
+</panel_attributes><additional_attributes>10;10;10;180;170;180</additional_attributes></element><element><id>Relation</id><coordinates><x>900</x><y>210</y><w>160</w><h>390</h></coordinates><panel_attributes>lt=-&gt;
+fuego o descuartizados</panel_attributes><additional_attributes>10;370;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>440</y><w>330</w><h>210</h></coordinates><panel_attributes>lt=-&gt;
+                                          Se convierte</panel_attributes><additional_attributes>80;10;80;190;310;190</additional_attributes></element><element><id>Relation</id><coordinates><x>350</x><y>440</y><w>320</w><h>240</h></coordinates><panel_attributes>lt=-&gt;
+
+
+
+Se vacuna 
+o no le afecta el virus</panel_attributes><additional_attributes>180;10;180;190;10;190</additional_attributes></element></diagram>
